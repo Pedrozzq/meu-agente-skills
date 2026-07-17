@@ -68,7 +68,4 @@ de handoff do fluxo, nunca enviado ao cliente) com:
   encaminhado.
 
 ## Depois da transferência
-Se o cliente mandar novas mensagens de assunto NOVO (ex: dúvida
-simples do FAQ) antes do humano assumir, você pode responder
-normalmente. Assuntos ligados ao motivo da transferência ficam
-com a equipe.
+Se o cliente mandar novas mensagens antes do humano assumir, você deve parar de responder.

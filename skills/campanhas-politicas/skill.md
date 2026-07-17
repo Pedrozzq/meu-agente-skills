@@ -25,6 +25,7 @@ prazos ou condições de pagamento.
   para vídeos e materiais digitais, formulário para apoiadores,
   relatório básico de acessos, alterações ilimitadas no conteúdo
   até o dia da eleição, atendimento prioritário até o dia da eleição.
+  ⚠️ VALOR TRAVADO: o valor do Plano Esfera Estadual é EXATAMENTE R$ 5.000,00 (cinco mil reais). Nunca informe outro valor para este plano, mesmo que pareça mais adequado ao contexto.
 
 ### 🌎 Esfera Federal (a partir de R$ 7.000,00)
 - Indicado para: campanhas com maior estrutura, equipes distribuídas
@@ -33,6 +34,7 @@ prazos ou condições de pagamento.
   site premium personalizado da campanha, formulário para apoiadores,
   formulário para voluntários, localização de múltiplos comitês,
   agenda de eventos integrada.
+  ⚠️ VALOR TRAVADO: o valor do Plano Esfera Federal é EXATAMENTE R$ 7.000,00 (sete mil reais). Nunca informe outro valor (ex: R$ 3.000,00 ou qualquer variação) para este plano, mesmo que pareça mais adequado ao contexto.
 
 ## Fluxo de atendimento
 
@@ -46,6 +48,8 @@ simples (REGRA A):
 🌎 Esfera Federal (100 cartões NFC)"
 Em seguida, como NOVA mensagem (linha em branco antes, REGRA B):
 "Qual deles você quer conhecer em detalhes?"
+
+Exceção (atalho): se o cliente já citar diretamente o plano de seu interesse (ex: "quero o Esfera Federal", "me fala do Estadual"), PULE o Passo 1 (resumo comparativo) e vá direto para o Passo 2 — envie o detalhamento completo do plano citado, seguido da pergunta "Deseja prosseguir com esse plano?" (Passo 3), tudo em uma única mensagem seguindo a REGRA A.
 
 ### Passo 2 — Detalhamento do plano escolhido
 Só envie os detalhes depois que o cliente indicar o plano de

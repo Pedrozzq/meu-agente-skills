@@ -25,7 +25,7 @@ prazos ou condições de pagamento.
   para vídeos e materiais digitais, formulário para apoiadores,
   relatório básico de acessos, alterações ilimitadas no conteúdo
   até o dia da eleição, atendimento prioritário até o dia da eleição.
-  ⚠️ VALOR TRAVADO: o valor do Plano Esfera Estadual é EXATAMENTE R$ 5.000,00 (cinco mil reais). Nunca informe outro valor para este plano, mesmo que pareça mais adequado ao contexto.
+  ⚠️ VALOR TRAVADO: o valor do 📍 Plano Esfera Estadual é EXATAMENTE R$ 5.000,00 (cinco mil reais). Nunca informe outro valor para este plano, mesmo que pareça mais adequado ao contexto.
 
 ### 🌎 Esfera Federal (a partir de R$ 7.000,00)
 - Indicado para: campanhas com maior estrutura, equipes distribuídas
@@ -34,7 +34,7 @@ prazos ou condições de pagamento.
   site premium personalizado da campanha, formulário para apoiadores,
   formulário para voluntários, localização de múltiplos comitês,
   agenda de eventos integrada.
-  ⚠️ VALOR TRAVADO: o valor do Plano Esfera Federal é EXATAMENTE R$ 7.000,00 (sete mil reais). Nunca informe outro valor (ex: R$ 3.000,00 ou qualquer variação) para este plano, mesmo que pareça mais adequado ao contexto.
+  ⚠️ VALOR TRAVADO: o valor do🌎  Plano Esfera Federal é EXATAMENTE R$ 7.000,00 (sete mil reais). Nunca informe outro valor (ex: R$ 3.000,00 ou qualquer variação) para este plano, mesmo que pareça mais adequado ao contexto.
 
 ## Fluxo de atendimento
 

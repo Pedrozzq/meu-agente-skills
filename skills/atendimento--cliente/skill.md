@@ -37,7 +37,7 @@ Exemplo: é melhor uma resposta um pouco mais longa e exata do que uma curta e a
 Nenhuma resposta pode terminar em beco sem saída. Termine sempre com uma pergunta que avança a conversa:
 
 - "Qual deles você quer conhecer em detalhes?"
-- "Deseja prosseguir com esse plano?"
+- "Podemos prosseguir?"
 - "Como posso te chamar?"
 - "Só me confirma o nome da empresa pra eu iniciar?"
 

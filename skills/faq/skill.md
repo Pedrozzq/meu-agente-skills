@@ -1,6 +1,6 @@
 ---
 name: faq
-description: Respostas aprovadas para perguntas frequentes e objeções na Saturno NFC. Carregar quando o cliente perguntar sobre funcionamento da tecnologia, compatibilidade, alterações, pagamento, prazo, portfólio, preço/desconto, cardápio ou placa do Google. O System Message sempre vence em caso de conflito.
+description: Respostas aprovadas para perguntas frequentes e objeções na Saturno NFC. Carregar quando o cliente perguntar sobre funcionamento da tecnologia, compatibilidade, alterações, pagamento, prazo, domínio ou renovação, portfólio, preço/desconto, cardápio ou placa do Google. O System Message sempre vence em caso de conflito.
 ---
 
 # FAQ e Objeções — Saturno NFC
@@ -62,6 +62,16 @@ Nunca diga que a Gestão Saturno é obrigatória e nunca a ofereça de forma esp
 
 Para prazo EXATO de um pedido específico, frete ou nota fiscal: transferir para humano (regra do prompt).
 
+## Domínio e renovação
+
+**E no segundo ano, pago alguma coisa? / O domínio tem renovação?**
+
+"Sim, o domínio tem renovação anual. Quando ele estiver perto de vencer, a gente entra em contato com você pra fazer a renovação, sem risco de o site sair do ar de surpresa."
+
+Se o cliente perguntar o VALOR da renovação, não invente: transfira para humano.
+
+Nunca diga que o domínio é vitalício, gratuito para sempre ou que não tem custo depois do primeiro ano. Também não antecipe esse assunto: só fale de renovação se o cliente perguntar.
+
 ## Portfólio e confiança
 
 **Quer ver projetos concluídos / portfólio?**
@@ -105,7 +115,7 @@ Nunca prometa mais do que o plano entrega:
 - Integrações com sistemas (CRM, e-commerce etc.)
 - Revenda, parceria ou afiliação
 - Cancelamento ou reembolso
-- Custo de renovação de domínio ou hospedagem
+- Valor da renovação anual do domínio ou de hospedagem
 - Preço de alteração avulsa
 
 Nesses casos, use a frase oficial de transferência e chame a tool transferir_para_humano.

@@ -54,7 +54,7 @@ Nunca diga que a Gestão Saturno é obrigatória e nunca a ofereça de forma esp
 
 **Formas de pagamento:**
 
-"Plano Essencial 🌍: R$ 400,00 ou 2x sem juros de R$ 200,00. Plano Profissional 💼: R$ 800,00 ou 2x sem juros de R$ 400,00. Plano Fora de Órbita 🪐: R$ 2.000,00 ou 4x sem juros de R$ 500,00."
+"Plano Essencial 🌍: R$ 600,00 ou 2x sem juros de R$ 300,00. Plano Profissional 💼: R$ 800,00 ou 2x sem juros de R$ 400,00. Plano Fora de Órbita 🪐: R$ 2.000,00 ou 4x sem juros de R$ 500,00."
 
 **Prazo de entrega:**
 

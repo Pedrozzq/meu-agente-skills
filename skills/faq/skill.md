@@ -7,17 +7,26 @@ description: Respostas aprovadas para perguntas frequentes e objeções na Satur
 
 Use as respostas abaixo como base, adaptando levemente ao contexto da conversa (Regra 2.3: mensagens curtas). Nunca altere valores, prazos ou condições. Se a pergunta não estiver aqui nem na Base de Conhecimento, não improvise: transfira para humano.
 
+🔴 As respostas abaixo já estão no formato de envio: uma frase por linha, no máximo 3 linhas por mensagem. Mantenha as quebras de linha exatamente como estão. Nunca junte duas linhas em uma. O padrão completo está na skill **estilo-mensagem**.
+
 Sintaxe: nunca use Markdown. Links sempre por extenso, sem colchetes e sem parênteses.
 
 ## Tecnologia e funcionamento
 
 **Como funciona o cartão? / O que é NFC?**
 
-"O cartão NFC funciona por aproximação. Basta encostar na parte de trás de um celular compatível e tocar na notificação que aparece na tela. Não precisa instalar nenhum aplicativo, e a pessoa vai direto para a sua página digital personalizada."
+```
+O cartão funciona por aproximação.
+A pessoa encosta no celular e toca na notificação que aparece.
+Não precisa instalar nada, vai direto pra sua página.
+```
 
 **Precisa de bateria? Funciona no iPhone/Android?**
 
-"Não usa bateria. Funciona por aproximação em celulares compatíveis com NFC, que é a maioria dos aparelhos recentes."
+```
+Não usa bateria.
+Funciona por aproximação na maioria dos celulares recentes.
+```
 
 **E se o celular da pessoa não tiver NFC?**
 
@@ -34,7 +43,18 @@ Não invente solução técnica. Diga que a maioria dos aparelhos recentes é co
 
 **E se eu quiser alterar informações depois?**
 
-"As alterações são feitas pela nossa equipe. Durante a produção do site, você pede os ajustes que quiser até ficar do jeito certo: isso já faz parte do plano. Depois que o site é entregue pronto, as atualizações passam a funcionar pela Gestão Saturno, por R$ 69,90/mês, com alterações ilimitadas, relatórios semanais e suporte prioritário. Os cartões nunca precisam ser trocados: eles continuam apontando pra mesma página."
+```
+As alterações são feitas pela nossa equipe.
+Durante a produção do site você pede os ajustes que quiser, já incluso.
+Depois da entrega, as atualizações passam pela Gestão Saturno.
+```
+
+Se ele perguntar o que é a Gestão Saturno, em mensagem separada:
+
+```
+São *R$ 69,90/mês* com alterações ilimitadas e relatórios semanais.
+Os cartões nunca precisam ser trocados.
+```
 
 **Preciso assinar a Gestão Saturno? É obrigatória?**
 
@@ -54,7 +74,11 @@ Nunca diga que a Gestão Saturno é obrigatória e nunca a ofereça de forma esp
 
 **Formas de pagamento:**
 
-"Plano Essencial 🌍: R$ 600,00 ou 2x sem juros de R$ 300,00. Plano Profissional 💼: R$ 800,00 ou 2x sem juros de R$ 400,00. Plano Fora de Órbita 🪐: R$ 2.000,00 ou 4x sem juros de R$ 500,00."
+```
+Essencial 🌍 — R$ 600,00 ou 2x de R$ 300,00
+Profissional 💼 — R$ 800,00 ou 2x de R$ 400,00
+Fora de Órbita 🪐 — R$ 2.000,00 ou 4x de R$ 500,00
+```
 
 **Prazo de entrega:**
 
@@ -66,7 +90,11 @@ Para prazo EXATO de um pedido específico, frete ou nota fiscal: transferir para
 
 **E no segundo ano, pago alguma coisa? / O domínio tem renovação?**
 
-"Sim, o domínio tem renovação anual. Quando ele estiver perto de vencer, a gente entra em contato com você pra fazer a renovação, sem risco de o site sair do ar de surpresa."
+```
+Sim, o domínio tem renovação anual.
+Quando estiver perto de vencer a gente entra em contato.
+O site não sai do ar de surpresa.
+```
 
 Se o cliente perguntar o VALOR da renovação, não invente: transfira para humano.
 
@@ -92,7 +120,11 @@ Se o cliente insistir (segunda vez): transfira para humano com a tool transferir
 
 **Vocês fazem cardápio digital?**
 
-"Sim! O plano Fora de Órbita 🪐 inclui 30 tags de mesa/quarto, que é o formato usado para cardápio digital: a pessoa encosta o celular na tag da mesa e o cardápio abre na hora."
+```
+Sim, pelo plano Fora de Órbita 🪐.
+Ele inclui 30 tags de mesa, que é o formato do cardápio digital.
+A pessoa encosta o celular na tag e o cardápio abre na hora.
+```
 
 **Vocês fazem placa do Google?**
 

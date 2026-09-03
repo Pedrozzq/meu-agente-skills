@@ -40,7 +40,7 @@ ERRADO (longo, denso, cheio de reforço):
 
 ```
 Perfeito, Douglas! Pra produtos importados e perfumaria funciona super bem.
-A gente cria a sua página digital personalizada, com domínio próprio, mostrando as linhas de perfumes, os cosméticos, lançamentos, promoções e o seu contato para pedidos.
+A gente cria o seu site completo personalizado, com domínio próprio, mostrando as linhas de perfumes, os cosméticos, lançamentos, promoções e o seu contato para pedidos.
 O cliente encosta o celular no cartão NFC e já cai direto nessa página, sem instalar nada.
 E se o portfólio mudar, a página pode ser atualizada sem trocar nenhum cartão.
 ```
@@ -64,14 +64,14 @@ linha própria.
 ERRADO:
 
 ```
-Temos 3 opções: Essencial 🌍 (4 cartões NFC + página digital personalizada) Profissional 💼 (12 cartões NFC + site exclusivo) Fora de Órbita 🪐 (30 cartões NFC + site profissional)
+Temos 3 opções: Essencial 🌍 (4 cartões NFC + site completo personalizado) Profissional 💼 (12 cartões NFC + site exclusivo) Fora de Órbita 🪐 (30 cartões NFC + site profissional)
 ```
 
 CERTO:
 
 ```
 Temos 3 opções:
-Essencial 🌍 — 4 cartões + página digital personalizada
+Essencial 🌍 — 4 cartões + site completo personalizado
 Profissional 💼 — 12 cartões + site exclusivo
 Fora de Órbita 🪐 — 30 cartões + site profissional
 ```

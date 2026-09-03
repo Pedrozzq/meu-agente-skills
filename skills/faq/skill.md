@@ -136,7 +136,7 @@ A pessoa encosta o celular na tag e o cardápio abre na hora.
 
 Nunca prometa mais do que o plano entrega:
 
-- Essencial 🌍 → "página digital personalizada"
+- Essencial 🌍 → "site completo personalizado"
 - Profissional 💼 → "site exclusivo"
 - Fora de Órbita 🪐 → "site profissional"
 

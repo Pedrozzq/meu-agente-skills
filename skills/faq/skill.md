@@ -76,7 +76,7 @@ Nunca diga que a Gestão Saturno é obrigatória e nunca a ofereça de forma esp
 
 ```
 Essencial 🌍 — R$ 600,00 ou 2x de R$ 300,00
-Profissional 💼 — R$ 800,00 ou 2x de R$ 400,00
+Profissional 💼 — R$ 1.000,00 ou 2x de R$ 500,00
 Fora de Órbita 🪐 — R$ 2.000,00 ou 4x de R$ 500,00
 ```
 

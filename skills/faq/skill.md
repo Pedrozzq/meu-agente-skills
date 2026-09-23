@@ -52,7 +52,7 @@ Depois da entrega, as atualizações passam pela Gestão Saturno.
 Se ele perguntar o que é a Gestão Saturno, em mensagem separada:
 
 ```
-São *R$ 69,90/mês* com alterações ilimitadas e relatórios semanais.
+São *R$ 89,90/mês* com alterações ilimitadas e relatórios semanais.
 Os cartões nunca precisam ser trocados.
 ```
 

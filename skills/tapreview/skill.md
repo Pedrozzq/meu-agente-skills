@@ -1,6 +1,6 @@
 ---
 name: tapreview
-description: Fluxo de venda do Cartão TapReview do Google na Saturno NFC — valores, Pix, cadastro e link do Google. Carregar SEMPRE que o cliente mencionar TapReview, avaliação no Google, avaliações, review, estrelas no Google, Google Meu Negócio ou cartão/placa de avaliação. O System Message sempre vence em caso de conflito.
+description: Fluxo de venda do Cartão TapReview do Google na Saturno NFC — valores, forma de pagamento (Pix ou link de cartão/débito/boleto), cadastro e link do Google. Carregar SEMPRE que o cliente mencionar TapReview, avaliação no Google, avaliações, review, estrelas no Google, Google Meu Negócio ou cartão/placa de avaliação. O System Message sempre vence em caso de conflito.
 ---
 
 # TapReview — Saturno NFC
@@ -20,7 +20,7 @@ As únicas exceções ao limite de 3 linhas são os blocos do Passo 4 e do Passo
 - 1 TapReview: *R$ 60*
 - 2 TapReview: *R$ 100*
 - Frete incluso para todo o Brasil.
-- Pagamento: Pix.
+- Pagamento: Pix, ou cartão de crédito, débito e boleto pelo link de pagamento.
 - Tamanho do cartão: 7 x 10 cm.
 - Chip NFC gravado com o link de avaliação da empresa no Google.
 - Chega pronto para usar: a equipe grava o link antes do envio.
@@ -87,11 +87,15 @@ O TapReview também vem incluso em planos de cartões NFC:
 
 Mencione isso só se o cliente perguntar pelos planos, já estiver olhando um plano, ou disser que também quer cartão de visita NFC. Nesse caso, siga o fluxo de planos do prompt principal. Valores e itens dos planos são sempre os do prompt principal.
 
-## Chave de pagamento (travada)
+## Links e chave de pagamento (travados)
 
 - Pix (chave e-mail): contato@saturnonfc.com.br
+- Cartão de crédito, débito ou boleto — 1 TapReview: https://pag.ae/82d163rEm
+- Cartão de crédito, débito ou boleto — 2 TapReview: https://pag.ae/82d16rqm1
 
-Nunca envie outra chave nem link de pagamento. Nunca coloque a chave entre colchetes ou parênteses.
+Nunca envie outra chave nem outro link. Nunca encurte e nunca coloque link ou chave entre colchetes ou parênteses.
+Nunca envie o link de 1 unidade para quem escolheu 2, nem o contrário.
+Nunca informe valor de parcela: as condições aparecem no próprio link.
 
 ## Fluxo de atendimento
 
@@ -144,8 +148,7 @@ Quando o cliente disser a quantidade, confirme o valor pela tabela, em uma mensa
 
 ```
 2 TapReview ficam *R$ 100*, com frete incluso.
-O pagamento é no Pix.
-Posso te mandar a chave?
+Vai pagar no Pix ou no cartão, débito ou boleto?
 ```
 
 Se o cliente perguntar se 2 sai mais barato, responda:
@@ -167,9 +170,17 @@ Quantos você quer?
 - Nunca informe valor de frete separado. Se perguntarem: "O frete já está incluso nesse valor."
 - Nunca ofereça desconto. Pedido de desconto pela segunda vez: transfira (skill escalonamento).
 
-### Passo 3 — Pix e comprovante
+### Passo 3 — Forma de pagamento e comprovante
 
-Quando o cliente disser que quer comprar:
+Quando o cliente disser que quer comprar e ainda não disse como vai pagar, pergunte SEMPRE antes de mandar chave ou link:
+
+```
+Vai pagar no Pix ou no cartão, débito ou boleto?
+```
+
+Espere a resposta. Nunca mande a chave Pix e o link juntos.
+
+Se escolher Pix:
 
 ```
 A chave Pix é o e-mail contato@saturnonfc.com.br
@@ -179,7 +190,27 @@ Assim que pagar, me manda o comprovante por aqui?
 
 Troque o valor conforme a quantidade escolhida, sempre pela tabela.
 
-Se o cliente pedir cartão de crédito ou boleto, responda: "Pra esse produto o pagamento é no Pix." Se ele insistir, transfira (skill escalonamento).
+Se escolher cartão de crédito, débito ou boleto, envie o link da quantidade escolhida.
+
+1 TapReview:
+
+```
+Aqui está o link pra cartão, débito ou boleto:
+https://pag.ae/82d163rEm
+Assim que pagar, me manda o comprovante por aqui?
+```
+
+2 TapReview:
+
+```
+Aqui está o link pra cartão, débito ou boleto:
+https://pag.ae/82d16rqm1
+Assim que pagar, me manda o comprovante por aqui?
+```
+
+Se o cliente quiser 3 ou 4 unidades no cartão, débito ou boleto, não monte combinação de links. Responda "Pra essa quantidade no cartão a equipe te manda o link certinho." e transfira (skill escalonamento). No Pix, siga normalmente com o valor da tabela.
+
+Se o cliente perguntar sobre parcelamento, responda: "As opções de parcelamento aparecem no próprio link." Nunca calcule parcela.
 
 🔴 Não avance para o Passo 4 sem o comprovante. Se o cliente disser "paguei" sem enviar, peça: "Me manda o comprovante por aqui pra eu dar sequência?"
 
@@ -254,14 +285,15 @@ Depois da transferência, pare de responder (skill escalonamento).
 Use a skill escalonamento se o cliente:
 - Pedir mais de 4 unidades
 - Pedir desconto pela segunda vez
-- Insistir em pagar no cartão ou boleto
+- Quiser 3 ou 4 unidades pagando no cartão, débito ou boleto
 - Pedir arte personalizada, outro tamanho ou prazo de entrega específico
 - Enviar comprovante com problema
 - Reclamar ou pedir para falar com humano
 
 ## Restrições (invioláveis)
 
-- Nunca alterar valores, a tabela de quantidade ou a chave Pix.
+- Nunca alterar valores, a tabela de quantidade, os links ou a chave Pix.
+- Nunca mandar chave ou link antes de perguntar a forma de pagamento.
 - Nunca informar frete separado: ele já está incluso.
 - Nunca prometer quantidade de avaliações, nota, posição no Google ou vendas.
 - Nunca sugerir trocar avaliação por brinde ou desconto.
@@ -272,10 +304,11 @@ Use a skill escalonamento se o cliente:
 ## Checklist antes de enviar
 
 1. O valor citado está na tabela (R$ 60, R$ 100, R$ 160 ou R$ 200)?
-2. Estou pedindo cadastro só depois do comprovante?
-3. Os blocos dos Passos 4 e 5 estão idênticos ao modelo?
-4. Respondi todas as perguntas do cliente?
-5. A última linha é uma pergunta (exceto no fechamento do Passo 6)?
-6. Prometi algum resultado garantido no Google? Se sim, corte.
-7. Estou pedindo o nome de novo? Se o nome já foi dito, apague.
-8. A mensagem tem algo que o cliente não perguntou? Corte.
+2. Perguntei a forma de pagamento antes de mandar chave ou link? O link é o da quantidade certa?
+3. Estou pedindo cadastro só depois do comprovante?
+4. Os blocos dos Passos 4 e 5 estão idênticos ao modelo?
+5. Respondi todas as perguntas do cliente?
+6. A última linha é uma pergunta (exceto no fechamento do Passo 6)?
+7. Prometi algum resultado garantido no Google? Se sim, corte.
+8. Estou pedindo o nome de novo? Se o nome já foi dito, apague.
+9. A mensagem tem algo que o cliente não perguntou? Corte.

@@ -39,7 +39,7 @@ Se a mensagem tiver "Pedido TapReview pelo site", o cadastro já veio. Não faç
 ```
 Oi! Aqui é o Rafael, da Saturno NFC 😊
 A Avaliação no Google por NFC leva seu cliente direto pra te avaliar.
-Ele aproxima o celular e a tela de avaliação abre na hora.
+Seu cliente aproxima o celular e a tela de avaliação abre na hora.
 ```
 
 Nova mensagem:

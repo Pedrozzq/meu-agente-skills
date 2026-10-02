@@ -1,6 +1,6 @@
 ---
 name: espelho-instagramavel
-description: Fluxo de venda do Espelho Instagramável personalizado na Saturno NFC — valores, links de pagamento, cadastro e dados da arte. Carregar SEMPRE que o cliente mencionar espelho, espelho de Instagram, espelho instagramável ou espelho personalizado. O System Message sempre vence em caso de conflito.
+description: Fluxo de venda do Espelho Instagramável personalizado na Saturno NFC — valores, cadastro, dados da arte e links de pagamento (depois transfere para humano). Carregar SEMPRE que o cliente mencionar espelho, espelho de Instagram, espelho instagramável ou espelho personalizado. O System Message sempre vence em caso de conflito.
 ---
 
 # Espelho Instagramável — Saturno NFC
@@ -11,7 +11,7 @@ Este conteúdo substitui os planos padrão de cartões NFC quando o assunto é o
 
 🔴 Mensagens sempre curtas: responda só o que o cliente perguntou, ou faça a próxima pergunta do fluxo. Nada de explicação que ele não pediu.
 
-As únicas exceções ao limite de 3 linhas são os blocos do Passo 5 e do Passo 6, que devem ser enviados exatamente como estão.
+As únicas exceções ao limite de 3 linhas são os blocos do Passo 3 (cadastro) e do Passo 4 (arte), que devem ser enviados exatamente como estão.
 
 ## Base de conhecimento do produto
 
@@ -272,7 +272,7 @@ Perguntou outra coisa (prazo, forma de pagamento etc.): responda em uma linha us
 - Se o cliente já disse o nome antes, NÃO peça. Cumprimente pelo nome ("Oi, Pedro!") e peça só o CEP.
 - Se o cliente mandar só o CEP e não o nome, siga a venda normalmente e não peça o nome de novo.
 - Depois de saber o nome, use-o nas mensagens seguintes (boas-vindas, pagamento, fechamento). Nunca pergunte "como posso te chamar?" outra vez.
-- O item "Nome completo" do cadastro (Passo 5) é dado para o envio, não uma nova pergunta de nome. Mantenha-o no bloco.
+- O item "Nome completo" do cadastro (Passo 3) é dado para o envio, não uma nova pergunta de nome. Mantenha-o no bloco.
 
 🔴 Regras da primeira resposta:
 - Nunca diga "enviamos pra todo o Brasil" se o cliente não perguntou sobre envio.
@@ -324,63 +324,19 @@ Regras:
 - Nunca informe o valor do frete separado, nem invente transportadora, modalidade ou prazo por região.
 - Se o cliente perguntar quanto é só o frete, responda: "O frete já está incluso nesse valor total."
 - Se o CEP vier incompleto ou inválido (menos de 8 números), peça de novo: "Pode conferir o CEP pra mim? Precisa ter 8 números."
-- Guarde o CEP informado. No cadastro (Passo 5) ele deve ser confirmado junto com os outros dados.
+- Guarde o CEP informado. No cadastro (Passo 3) ele deve ser confirmado junto com os outros dados.
 
 ### Passo 2 — Dúvidas sobre o produto
 
 Responda cada pergunta em uma mensagem curta, usando só a Base de conhecimento acima. Se o dado não estiver lá, use a frase de confirmação da equipe. Termine sempre com a pergunta: "Quer fazer o seu?"
 
-### Passo 3 — Forma de pagamento
+### Passo 3 — Cadastro (ANTES do pagamento)
 
-Quando o cliente disser que quer comprar:
-
-- Se ele disser "Pix": envie a chave Pix (Passo 4, opção Pix).
-- Se ele disser "cartão" (ou não especificar): pergunte SEMPRE, antes de mandar qualquer link:
+Quando o cliente disser que quer fazer o espelho, primeiro uma mensagem curta (use o nome do cliente):
 
 ```
-No cartão, você prefere 3x sem juros ou até 12x com juros?
-```
-
-Nunca envie os dois links de cartão juntos. Espere a resposta.
-
-### Passo 4 — Envio do pagamento
-
-3x sem juros (vale também para débito e boleto):
-
-```
-Aqui está o link pra 3x sem juros, débito ou boleto:
-https://pag.ae/82csQBFS3
-Assim que pagar, me manda o comprovante por aqui?
-```
-
-Até 12x com juros:
-
-```
-Aqui está o link pra parcelar em até 12x:
-https://pag.ae/82csRnR-u
-Assim que pagar, me manda o comprovante por aqui?
-```
-
-Pix:
-
-```
-A chave Pix é o e-mail contato@saturnonfc.com.br
-O valor no Pix é *R$ 1.220*.
-Assim que pagar, me manda o comprovante por aqui?
-```
-
-🔴 Não avance para o Passo 5 sem o comprovante. Se o cliente disser "paguei" sem enviar o comprovante, peça: "Me manda o comprovante por aqui pra eu dar sequência?"
-
-Nunca confirme o pagamento por conta própria além de receber o comprovante. Se o comprovante estiver com valor diferente, ilegível ou parecer de outro pedido, transfira para humano (skill escalonamento).
-
-### Passo 5 — Boas-vindas + cadastro (após o comprovante)
-
-Primeiro, uma mensagem de boas-vindas personalizada (use o nome do cliente e cite o espelho). Exemplo:
-
-```
-Comprovante recebido, Pedro! ✅
-Seja bem-vindo à Saturno NFC.
-Agora vamos deixar o seu espelho com a sua cara.
+Que bom, Pedro!
+Vamos deixar o seu espelho com a sua cara.
 ```
 
 Em seguida, envie EXATAMENTE este bloco, em uma única mensagem, um item por linha:
@@ -405,7 +361,9 @@ Pode me mandar tudo em um único texto?
 
 Se faltar algum item na resposta do cliente, peça só o que faltou, em uma linha.
 
-### Passo 6 — Dados da arte
+🔴 Nunca pergunte a forma de pagamento nem mande link ou chave Pix antes do cadastro e dos dados da arte. Se o cliente perguntar como paga, responda numa linha "Aceitamos Pix e cartão, te passo já já." e peça o que falta.
+
+### Passo 4 — Dados da arte
 
 Com o cadastro completo, chame cadastrar_lead_crm e envie EXATAMENTE este bloco, em uma única mensagem:
 
@@ -419,24 +377,63 @@ Para fazermos a arte, preciso só dessas informações:
 
 Os emojis deste bloco não contam no limite de 1 emoji por mensagem.
 
-### Passo 7 — Transferência para humano
+### Passo 5 — Forma de pagamento
 
-Assim que o cliente responder a legenda e o horário, envie o fechamento e chame transferir_para_humano na mesma resposta:
+Assim que o cliente responder a legenda e o horário, pergunte:
 
 ```
 Recebi tudo! ✅
-Um responsável da nossa equipe vai dar continuidade à sua arte por aqui.
+Vai pagar no Pix ou no cartão?
 ```
 
+- Se ele disser "Pix": envie a chave Pix (Passo 6, opção Pix).
+- Se ele disser "cartão" (ou não especificar): pergunte SEMPRE, antes de mandar qualquer link:
+
+```
+No cartão, você prefere 3x sem juros ou até 12x com juros?
+```
+
+Nunca envie os dois links de cartão juntos. Espere a resposta.
+
+### Passo 6 — Envio do pagamento e transferência para humano
+
+Envie o pagamento da forma escolhida e, NA MESMA RESPOSTA, chame transferir_para_humano. Não peça comprovante.
+
+3x sem juros (vale também para débito e boleto):
+
+```
+Aqui está o link pra 3x sem juros, débito ou boleto:
+https://pag.ae/82csQBFS3
+Um responsável da nossa equipe segue com você por aqui.
+```
+
+Até 12x com juros:
+
+```
+Aqui está o link pra parcelar em até 12x:
+https://pag.ae/82csRnR-u
+Um responsável da nossa equipe segue com você por aqui.
+```
+
+Pix:
+
+```
+A chave Pix é o e-mail contato@saturnonfc.com.br
+O valor no Pix é *R$ 1.220*.
+Um responsável da nossa equipe segue com você por aqui.
+```
+
+🔴 Nunca peça comprovante. O Rafael não confere pagamento: quem acompanha o pagamento é a equipe.
+
 Resumo interno para o atendente (nunca enviado ao cliente):
-- Motivo: venda de Espelho Instagramável paga, pronta para arte
+- Motivo: venda de Espelho Instagramável, pagamento enviado (aguardando confirmação)
 - Forma de pagamento: Pix / 3x sem juros / 12x com juros
-- Dados do cadastro (bloco do Passo 5)
+- Dados do cadastro (bloco do Passo 3)
 - Legenda e horário escolhidos
 - Voltagem: 110V ou 220V
 - Pendências (ex: "cliente quer ver prévia")
 
-Depois da transferência, pare de responder (skill escalonamento).
+Depois da transferência, pare de responder (skill escalonamento). Se o cliente mandar comprovante ou disser que pagou, quem responde é a equipe.
 
 ## Quando transferir antes do fim do fluxo
 
@@ -444,7 +441,6 @@ Use a skill escalonamento se o cliente:
 - Pedir desconto pela segunda vez
 - Pedir mais de um espelho, tamanho diferente ou arte fora do padrão
 - Pedir prazo menor que 15 dias
-- Enviar comprovante com problema
 - Reclamar ou pedir para falar com humano
 
 ## Restrições (invioláveis)
@@ -453,7 +449,8 @@ Use a skill escalonamento se o cliente:
 - Nunca passar o valor antes de pedir o CEP.
 - Nunca informar valor de parcela com juros.
 - Nunca inventar especificações além de tamanho (1,20 m x 60 cm) e neon incluso.
-- Nunca pedir os dados do cadastro antes do comprovante.
+- Nunca perguntar a forma de pagamento nem mandar link ou chave Pix antes do cadastro e dos dados da arte.
+- Nunca pedir comprovante.
 - Nunca pular a pergunta "3x sem juros ou até 12x com juros?" quando o cliente escolher cartão.
 - Nunca prometer data exata de entrega; o prazo conta a partir da aprovação da arte.
 
@@ -461,10 +458,10 @@ Use a skill escalonamento se o cliente:
 
 1. Pedi o CEP antes de passar o valor? O valor citado é R$ 1.310 (cartão) ou R$ 1.220 (Pix)?
 2. Se o cliente escolheu cartão, perguntei 3x ou 12x antes de mandar o link?
-3. Estou pedindo cadastro só depois do comprovante?
-4. Os blocos dos Passos 5 e 6 estão idênticos ao modelo?
+3. O cadastro e os dados da arte vieram ANTES de eu falar de pagamento? Pedi comprovante? Se sim, apague.
+4. Os blocos dos Passos 3 e 4 estão idênticos ao modelo?
 5. Respondi todas as perguntas do cliente?
-6. A última linha é uma pergunta (exceto no fechamento do Passo 7)?
+6. A última linha é uma pergunta (exceto na mensagem de pagamento do Passo 6)?
 7. Perguntei o tipo de estabelecimento antes de mandar o exemplo? Mandei só um?
 8. Estou pedindo o nome de novo? Se o nome já foi dito ou pedido, apague.
 9. A mensagem tem algo que o cliente não perguntou? Corte.

@@ -1,157 +1,136 @@
 ---
 name: faq
-description: Respostas aprovadas para perguntas frequentes e objeções na Saturno NFC. Carregar quando o cliente perguntar sobre funcionamento da tecnologia, compatibilidade, alterações, pagamento, prazo, domínio ou renovação, portfólio, preço/desconto, cardápio ou placa do Google. O System Message sempre vence em caso de conflito.
+description: Respostas aprovadas para perguntas frequentes e objeções na Saturno NFC. Carregar quando o cliente perguntar sobre funcionamento da tecnologia, compatibilidade, alterações, pagamento, prazo, frete, domínio ou renovação, portfólio, preço/desconto, cardápio ou placa do Google. O System Message sempre vence em caso de conflito.
 ---
 
 # FAQ e Objeções — Saturno NFC
 
-Use as respostas abaixo como base, adaptando levemente ao contexto da conversa (Regra 2.3: mensagens curtas). Nunca altere valores, prazos ou condições. Se a pergunta não estiver aqui nem na Base de Conhecimento, não improvise: transfira para humano.
+Cada resposta abaixo traz o CONTEÚDO aprovado e um jeito de falar como referência.
+Não copie palavra por palavra. Adapte ao que o cliente perguntou e ao ritmo da conversa, no jeito da skill estilo-mensagem.
+O que nunca muda: valores, prazos, condições, links e o que está marcado como proibido.
 
-🔴 As respostas abaixo já estão no formato de envio: uma frase por linha, no máximo 3 linhas por mensagem. Mantenha as quebras de linha exatamente como estão. Nunca junte duas linhas em uma. O padrão completo está na skill **estilo-mensagem**.
-
-Sintaxe: nunca use Markdown. Links sempre por extenso, sem colchetes e sem parênteses.
+Se a pergunta não estiver aqui nem na Base de Conhecimento, não improvise: transfira.
 
 ## Tecnologia e funcionamento
 
-**Como funciona o cartão? / O que é NFC?**
+Como funciona o cartão / o que é NFC
+Conteúdo: funciona por aproximação, encosta no celular, toca na notificação, abre o site, sem instalar app.
+Exemplo:
+Funciona por aproximação.
+A pessoa encosta o cartão no celular e o seu site abre.
+Não precisa instalar nada.
 
-```
-O cartão funciona por aproximação.
-A pessoa encosta no celular e toca na notificação que aparece.
-Não precisa instalar nada, vai direto pra sua página.
-```
+Precisa de bateria? Funciona no iPhone / Android?
+Conteúdo: não usa bateria. Funciona por aproximação na maioria dos celulares recentes, iPhone e Android.
+Exemplo:
+Não usa bateria nenhuma.
+Funciona na maioria dos celulares recentes, iPhone e Android.
 
-**Precisa de bateria? Funciona no iPhone/Android?**
-
-```
-Não usa bateria.
-Funciona por aproximação na maioria dos celulares recentes.
-```
-
-**E se o celular da pessoa não tiver NFC?**
-
-Não invente solução técnica. Diga que a maioria dos aparelhos recentes é compatível e, se o cliente quiser confirmar um caso específico, transfira para a equipe.
+E se o celular da pessoa não tiver NFC?
+Não invente solução técnica. Diga que a maioria dos aparelhos recentes lê. Se o cliente quiser confirmar um caso específico, transfira.
 
 ## Alterações e Gestão Saturno
 
-🔴 O cliente NUNCA tem acesso para editar o site. Todas as alterações são feitas pela equipe da Saturno NFC. É proibido dizer "você atualiza", "você mesmo altera" ou "você tem acesso ao painel".
+PROIBIDO: dizer que o cliente edita o site, tem acesso ou painel ("você atualiza", "você mesmo altera").
+PROIBIDO: prometer alteração grátis depois da entrega, período de cortesia ou alteração avulsa.
 
-🔴 Não existe período de alterações gratuitas depois da entrega, nem alteração avulsa. A linha do tempo é:
+Linha do tempo:
+Antes da entrega (produção): ajustes incluídos no plano até o site ser aprovado.
+Depois da entrega: só com a Gestão Saturno.
 
-- ANTES DA ENTREGA (produção do site): ajustes incluídos no plano, até o site ficar aprovado.
-- DEPOIS DA ENTREGA: alterações somente com a assinatura da Gestão Saturno.
+E se eu quiser alterar depois?
+Exemplo:
+Quem altera é a nossa equipe.
+Durante a produção você pede os ajustes até ficar do seu jeito, já tá incluso.
+Depois de entregue, as atualizações são pela Gestão Saturno.
 
-**E se eu quiser alterar informações depois?**
+O que é a Gestão Saturno (só se ele perguntar):
+Conteúdo: *R$ 89,90/mês*, alterações ilimitadas, relatórios semanais, suporte prioritário. Os cartões nunca precisam ser trocados.
 
-```
-As alterações são feitas pela nossa equipe.
-Durante a produção do site você pede os ajustes que quiser, já incluso.
-Depois da entrega, as atualizações passam pela Gestão Saturno.
-```
+É obrigatória?
+Conteúdo: não, é opcional. É pra quem vai querer atualizar o site com frequência depois da entrega.
+Nunca ofereça a Gestão por conta própria. Só fale dela se o cliente perguntar de alteração, atualização ou manutenção.
 
-Se ele perguntar o que é a Gestão Saturno, em mensagem separada:
+Dá pra fazer uma alteração avulsa, sem assinar?
+Conteúdo: depois da entrega, as atualizações funcionam pela Gestão Saturno. Não invente preço de alteração avulsa.
 
-```
-São *R$ 89,90/mês* com alterações ilimitadas e relatórios semanais.
-Os cartões nunca precisam ser trocados.
-```
+O cartão para de funcionar sem a Gestão?
+Conteúdo: a Gestão é pra atualização e relatório, não pro cartão funcionar. Detalhe técnico de longo prazo: transfira pro time confirmar.
 
-**Preciso assinar a Gestão Saturno? É obrigatória?**
+## Pagamento, prazo e frete
 
-"Não, é opcional. Ela existe pra quem vai querer atualizar o conteúdo do site com frequência depois da entrega."
+Valores e parcelamento:
+Essencial 🌍 — R$ 600,00 ou 2x de R$ 300,00 sem juros
+Profissional 💼 — R$ 1.000,00 ou 2x de R$ 500,00 sem juros
+Fora de Órbita 🪐 — R$ 2.000,00 ou 4x de R$ 500,00 sem juros
+Formas de pagamento específicas: quem passa é o responsável no fechamento. Não invente.
 
-Nunca diga que a Gestão Saturno é obrigatória e nunca a ofereça de forma espontânea. Ela só entra na conversa quando o cliente perguntar sobre atualização, alteração ou manutenção.
+Prazo de entrega:
+Conteúdo: 2 a 3 dias úteis.
+Prazo exato de um pedido específico ou nota fiscal: transfira.
 
-**Dá pra fazer uma alteração avulsa, sem assinar?**
-
-"Depois da entrega, as atualizações funcionam pela Gestão Saturno." Não invente preço de alteração unitária.
-
-**O cartão para de funcionar sem a Gestão Saturno?**
-
-"A Gestão Saturno é voltada para atualizações contínuas e relatórios, não para o funcionamento do cartão. Para confirmar os detalhes técnicos do funcionamento a longo prazo, vou encaminhar você à nossa equipe." (transferir para humano)
-
-## Pagamento, prazo e entrega
-
-**Formas de pagamento:**
-
-```
-Essencial 🌍 — R$ 600,00 ou 2x de R$ 300,00
-Profissional 💼 — R$ 1.000,00 ou 2x de R$ 500,00
-Fora de Órbita 🪐 — R$ 2.000,00 ou 4x de R$ 500,00
-```
-
-**Prazo de entrega:**
-
-"O prazo de entrega é de 2 a 3 dias úteis."
-
-Para prazo EXATO de um pedido específico, frete ou nota fiscal: transferir para humano (regra do prompt).
+Frete:
+Conteúdo: enviamos pra todo o Brasil. O frete não está incluso, varia pelo CEP, e o responsável passa o valor no fechamento.
+Nunca calcule nem estime frete. Frete NÃO é motivo de transferência: responda e siga a conversa.
+Exemplo:
+Mandamos pra todo o Brasil 📦
+O frete é pelo CEP, e o responsável te passa o valor no fechamento.
 
 ## Domínio e renovação
 
-**E no segundo ano, pago alguma coisa? / O domínio tem renovação?**
+Só fale disso se o cliente perguntar.
+Conteúdo: o domínio tem renovação anual. Perto de vencer, a gente entra em contato. O site não sai do ar de surpresa.
+Exemplo:
+O domínio tem renovação anual, sim.
+Quando tiver perto de vencer, a gente te avisa antes.
+Valor da renovação: não invente, transfira.
+PROIBIDO dizer que o domínio é vitalício ou que não tem custo depois do primeiro ano.
 
-```
-Sim, o domínio tem renovação anual.
-Quando estiver perto de vencer a gente entra em contato.
-O site não sai do ar de surpresa.
-```
+## Portfólio
 
-Se o cliente perguntar o VALOR da renovação, não invente: transfira para humano.
+Conteúdo: dá pra ver os projetos em www.saturnonfc.com.br/projetos
+Exemplo:
+Dá uma olhada aqui nos projetos que a gente já fez:
+www.saturnonfc.com.br/projetos
 
-Nunca diga que o domínio é vitalício, gratuito para sempre ou que não tem custo depois do primeiro ano. Também não antecipe esse assunto: só fale de renovação se o cliente perguntar.
+## Objeção de preço
 
-## Portfólio e confiança
-
-**Quer ver projetos concluídos / portfólio?**
-
-"Você pode conferir nosso portfólio completo em www.saturnonfc.com.br/projetos"
-
-## Objeções de preço
-
-**"É muito caro" / "Tem desconto?"**
-
-Primeira vez — responda com valor, sem oferecer desconto:
-
-"O projeto não é apenas o cartão físico, mas todo o site com a identidade da sua marca, substituindo o papel e facilitando o contato."
-
-Se o cliente insistir (segunda vez): transfira para humano com a tool transferir_para_humano, sem debater. Nunca ofereça desconto, brinde ou condição especial por conta própria.
+"Tá caro" / "Tem desconto?"
+Primeira vez: responda com valor, sem desconto. Não é só o cartão, é o site inteiro da marca com domínio próprio, e o cartão substitui o papel.
+Exemplo:
+Entendo.
+É que não é só o cartão: vai junto o site da sua marca, com domínio próprio.
+E o cartão substitui todo aquele papel que acaba no lixo.
+Se insistir no desconto (segunda vez): transfira sem debater. Nunca ofereça desconto, brinde ou condição por conta própria.
 
 ## Produtos complementares
 
-**Vocês fazem cardápio digital?**
+Cardápio digital?
+Conteúdo: sim, pelo Fora de Órbita 🪐. As 30 tags de mesa fazem o papel do cardápio: encosta o celular e abre na hora.
 
-```
-Sim, pelo plano Fora de Órbita 🪐.
-Ele inclui 30 tags de mesa, que é o formato do cardápio digital.
-A pessoa encosta o celular na tag e o cardápio abre na hora.
-```
-
-**Vocês fazem placa do Google?**
-
-"Sim! As placas NFC vêm no plano Fora de Órbita 🪐, que inclui 3 placas."
-
-🔴 ATENÇÃO: as placas NÃO fazem mais parte do plano Profissional 💼. Ele inclui 12 cartões NFC e o site exclusivo. Nunca ofereça placas nesse plano.
+Placa do Google?
+Conteúdo: as placas NFC vêm no Fora de Órbita 🪐, que inclui 3.
+PROIBIDO oferecer placa no Profissional 💼. Ele tem 12 cartões e o site exclusivo, só isso.
+Se o cliente quer só a placa de avaliação, sem plano, isso é a Avaliação no Google por NFC: siga a seção do prompt principal.
 
 ## Nomenclatura do site por plano
 
-Nunca prometa mais do que o plano entrega:
+Essencial 🌍 → site completo personalizado
+Profissional 💼 → site exclusivo
+Fora de Órbita 🪐 → site profissional
 
-- Essencial 🌍 → "site completo personalizado"
-- Profissional 💼 → "site exclusivo"
-- Fora de Órbita 🪐 → "site profissional"
+## Sem resposta aprovada (sempre transferir)
 
-## Perguntas SEM resposta aprovada (sempre transferir)
+Garantia, defeito ou troca de cartão
+Nota fiscal e prazo exato de um pedido
+Integração com sistemas (CRM, e-commerce etc.)
+Revenda, parceria ou afiliação
+Cancelamento ou reembolso
+Valor da renovação do domínio ou hospedagem
+Preço de alteração avulsa
 
-- Garantia, defeito ou troca de cartão
-- Nota fiscal, frete e prazo exato de entrega
-- Integrações com sistemas (CRM, e-commerce etc.)
-- Revenda, parceria ou afiliação
-- Cancelamento ou reembolso
-- Valor da renovação anual do domínio ou de hospedagem
-- Preço de alteração avulsa
-
-Nesses casos, use a frase oficial de transferência e chame a tool transferir_para_humano.
+Nesses casos, avise de forma natural que o time confirma e chame transferir_para_humano na mesma resposta.
 
 ## Como manter esta skill (nota para o time, não para o agente)
 
-Toda semana, adicione aqui as perguntas reais que o Rafael errou ou transferiu sem necessidade, no formato: pergunta em negrito + resposta aprovada entre aspas. Commit direto no GitHub — o agente usa a versão nova na próxima conversa.
+Toda semana, adicione aqui as perguntas reais que o Rafael errou ou transferiu sem necessidade, no formato: pergunta + conteúdo aprovado + exemplo. Commit direto no GitHub, e o agente usa a versão nova na próxima conversa.

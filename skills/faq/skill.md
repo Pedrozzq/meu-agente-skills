@@ -29,6 +29,11 @@ Funciona na maioria dos celulares recentes, iPhone e Android.
 E se o celular da pessoa não tiver NFC?
 Não invente solução técnica. Diga que a maioria dos aparelhos recentes lê. Se o cliente quiser confirmar um caso específico, transfira.
 
+Pra que serve / onde usar o cartão?
+Conteúdo: o cartão fica com o dono ou a equipe, e a pessoa só encosta o celular. Ideal pra reunião, networking, eventos, apresentar a empresa e divulgar. O site também vai na bio do Instagram.
+Exemplo:
+É ideal pra reunião, networking e pra apresentar a empresa: a pessoa encosta o celular no seu cartão e já sai com seu site e contato. E o mesmo site vai na bio do seu Instagram.
+
 ## Alterações e Gestão Saturno
 
 PROIBIDO: dizer que o cliente edita o site, tem acesso ou painel ("você atualiza", "você mesmo altera").
@@ -70,11 +75,11 @@ Conteúdo: 2 a 3 dias úteis.
 Prazo exato de um pedido específico ou nota fiscal: transfira.
 
 Frete:
-Conteúdo: enviamos pra todo o Brasil. O frete não está incluso, varia pelo CEP, e o responsável passa o valor no fechamento.
-Nunca calcule nem estime frete. Frete NÃO é motivo de transferência: responda e siga a conversa.
+Conteúdo: enviamos pra todo o Brasil. Nos planos de cartões (Essencial, Profissional, Fora de Órbita) o frete é GRÁTIS.
+Espelho e Avaliação no Google seguem as regras das skills deles (frete já incluso no valor).
+Frete NÃO é motivo de transferência: responda e siga a conversa.
 Exemplo:
-Mandamos pra todo o Brasil 📦
-O frete é pelo CEP, e o responsável te passa o valor no fechamento.
+Mandamos pra todo o Brasil, e nos cartões o frete é grátis 📦
 
 ## Domínio e renovação
 

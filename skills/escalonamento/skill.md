@@ -31,7 +31,7 @@ Já passei pro responsável pra resolver isso com você."
 
 Fechamento depois da coleta de dados (transferência positiva):
 "Certinho, anotei tudo ✅
-Agora um responsável segue com você pra finalizar o pedido e o frete."
+Agora um responsável segue com você pra finalizar o pedido."
 
 Evite: "Essa solicitação precisa ser analisada", "Vou encaminhar seu atendimento para que você receba a orientação correta", "Aguarde que em breve você será atendido".
 
@@ -52,7 +52,7 @@ Motivo da transferência (1 linha)
 Plano de interesse ou contratado
 Dados já coletados (nome, empresa, segmento, Instagram, site, ou dados de campanha)
 Estado do cliente: neutro / interessado / apressado / insatisfeito
-Pendências (ex: "quer desconto", "pronto pra pagar o Profissional", "pediu frete pro CEP X")
+Pendências (ex: "quer desconto", "pronto pra pagar o Profissional"
 Falha no cadastro do CRM, se houve
 
 ## Situações específicas

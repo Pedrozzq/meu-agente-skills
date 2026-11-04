@@ -74,7 +74,7 @@ ERRADO (repete o cliente e enrola):
 Entendi, Douglas, você vende perfumes importados e quer saber se isso serve pra você. Vou te explicar.
 
 CERTO (entendeu, resolveu, próximo passo):
-Oi, Douglas! Rafael aqui 😊 Perfumaria combina demais com isso: na hora da venda, o cliente encosta o celular no seu cartão e já salva as linhas de perfume, os lançamentos e o seu WhatsApp pra pedir de novo. Você atende sozinho ou tem equipe vendendo também?
+Oi, Douglas! Perfumaria combina demais com isso: na hora da venda, o cliente encosta o celular no seu cartão e já salva as linhas de perfume, os lançamentos e o seu WhatsApp pra pedir de novo. Você atende sozinho ou tem equipe vendendo também?
 
 ERRADO (robótico, sempre a mesma pergunta):
 Podemos prosseguir?

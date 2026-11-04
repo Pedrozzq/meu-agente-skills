@@ -5,7 +5,7 @@ description: Planos, fluxo e regras para atendimento de campanhas politicas na S
 
 # Campanhas Políticas — Saturno NFC
 
-Quando o assunto é campanha, este conteúdo substitui os planos padrão (Essencial, Profissional, Fora de Órbita). Nunca apresente os planos padrão aqui.
+Quando o assunto é campanha, este conteúdo substitui o pedido personalizado (site e cartões). Nunca apresente o pedido personalizado aqui.
 Todas as regras do prompt principal continuam valendo: jeito de conversar, formato e restrições.
 O jeito de escrever está na skill estilo-mensagem.
 

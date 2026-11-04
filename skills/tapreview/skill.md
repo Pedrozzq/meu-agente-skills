@@ -32,7 +32,7 @@ Links TRAVADOS:
 2 unidades: https://pag.ae/82d16rqm1
 3 ou 4 unidades no crédito, débito ou boleto: transfira pro time mandar o link.
 
-Também vem nos planos Profissional (1 unidade) e Fora de Órbita (2 unidades). Só cite se o cliente falar de planos.
+Junto com o site, entra como Tag Avaliação Google, a R$ 40 cada. Só cite se o cliente falar do site.
 Qualquer outro detalhe: "Esse detalhe o time te confirma certinho por aqui."
 
 Nunca prometa número de avaliações, nota ou posição no Google. Fale "pode ajudar", nunca "vai fazer".

@@ -55,7 +55,7 @@ Origem: botão do site (e a mensagem inicial) ou WhatsApp direto
 Plano de interesse ou contratado
 Dados já coletados (nome, empresa, segmento, Instagram, site, ou dados de campanha)
 Estado do cliente: neutro / interessado / apressado / insatisfeito
-Pendências (ex: "quer desconto", "pronto pra pagar o Profissional")
+Pendências (ex: "quer desconto", "pronto pra pagar o pedido")
 Falha no cadastro do CRM, se houve
 
 ## Situações específicas

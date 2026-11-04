@@ -37,40 +37,17 @@ Exemplo:
 O que tem no site?
 Conteúdo: design profissional adaptado pra celular, botões de WhatsApp, localização, redes sociais e agendamento, botão pra salvar o contato com um toque. Pode ter avaliação no Google, Wi-Fi e cardápio/catálogo conforme o plano.
 
-## O que vem em cada plano
+## O que dá pra pedir
 
-Use quando o cliente pedir pra comparar ou perguntar o que inclui. Mostre só o plano que interessa a ele, a não ser que peça todos.
+Use quando o cliente perguntar o que inclui. Os planos Essencial, Profissional e Fora de Órbita não existem mais: nunca os ofereça. Agora a pessoa monta o próprio plano:
 
-Essencial 🌍 — *R$ 600* ou 2x de R$ 300 sem juros
-Site exclusivo
-4 cartões NFC personalizados
-WhatsApp, localização, redes sociais, agendamento e salvar contato
-QR Code integrado aos cartões
-Entrega em 2 a 3 dias úteis
+Site personalizado — *R$ 597*, pronto e configurado, com domínio próprio (.com.br) e sem nenhum cartão incluído
+Cartão NFC — *R$ 35* cada
+Tag Avaliação Google — *R$ 40* cada
+CRM (opcional) — *R$ 1.500*
+Frete grátis
 
-Profissional 💼 — *R$ 1.000* ou 2x de R$ 500 sem juros
-Tudo do Essencial
-Site profissional com animações avançadas
-12 cartões NFC personalizados
-1 cartão de avaliação no Google
-Entrega em 3 a 4 dias úteis
-
-Fora de Órbita 🪐 — *R$ 2.000* ou 4x de R$ 500 sem juros
-Tudo do Profissional
-Site profissional sob medida, com identidade exclusiva
-30 cartões NFC personalizados
-2 cartões de avaliação no Google
-30 tags NFC pra mesas, cardápios, quartos ou pontos de atendimento
-1 chaveiro NFC direcionado pro Instagram
-Catálogo, cardápio ou página de apresentação personalizada
-Relatório de acessos, cliques e interações
-Entrega em 4 a 5 dias úteis
-
-Como indicar (só ligado ao que o cliente contou, com uma linha de porquê):
-Profissional sozinho ou equipe pequena (até 4 pessoas) → Essencial.
-Equipe média, quer avaliação no Google → Profissional.
-Restaurante, bar, hotel, clínica grande, várias mesas/salas, quer cardápio ou relatório → Fora de Órbita.
-A escolha é sempre do cliente.
+Como indicar (só ligado ao que o cliente contou, com uma linha de porquê): um cartão pra cada pessoa que vai usar. Se quer avaliações no Google, some a tag. A escolha é sempre do cliente.
 
 ## Alterações e Gestão Saturno
 
@@ -101,21 +78,21 @@ Conteúdo: a Gestão é pra atualização e relatório, não pro cartão funcion
 
 ## Pagamento, prazo e frete
 
-Valores e parcelamento: os do bloco "O que vem em cada plano".
+Valores: os do bloco "O que dá pra pedir". Parcelamento: até 12x COM juros no cartão de crédito. Nunca diga "sem juros" nem calcule a parcela.
 Formas de pagamento específicas: quem passa é o responsável no fechamento. Não invente.
 
 Prazo de entrega:
-Conteúdo: Essencial 2 a 3 dias úteis, Profissional 3 a 4, Fora de Órbita 4 a 5. Você recebe tudo configurado e funcionando.
+Conteúdo: o prazo o time confirma. Você recebe tudo configurado e funcionando.
 Prazo exato de um pedido específico ou nota fiscal: transfira.
 Exemplo:
-É rápido: no Essencial chega em 2 a 3 dias úteis, já configurado e funcionando.
+O prazo certinho o time te confirma, e chega tudo já configurado e funcionando.
 
 Frete:
-Conteúdo: enviamos pra todo o Brasil. Nos planos de cartões (Essencial, Profissional, Fora de Órbita) o frete é GRÁTIS.
+Conteúdo: enviamos pra todo o Brasil. No pedido personalizado o frete é GRÁTIS.
 Espelho e Avaliação no Google seguem as regras das skills deles (frete já incluso no valor).
 Frete NÃO é motivo de transferência: responda e siga a conversa.
 Exemplo:
-Mandamos pra todo o Brasil, e nos planos de cartão o frete é grátis 📦
+Mandamos pra todo o Brasil, e no pedido personalizado o frete é grátis 📦
 
 ## Domínio e renovação
 
@@ -137,19 +114,19 @@ Claro, dá uma olhada nos que a gente já fez, tem de vários segmentos: www.sat
 
 "Tá caro" / "Tem desconto?"
 Intenção: quer sentir que vale o que paga.
-Primeira vez: mostre que entendeu a preocupação e responda com valor, sem desconto. Não é só o cartão, é o site inteiro da marca com domínio próprio, os cartões substituem o papel, e é pagamento único dos cartões e do site, parcelado sem juros.
+Primeira vez: mostre que entendeu a preocupação e responda com valor, sem desconto. Não é só o cartão, é o site inteiro da marca com domínio próprio, e os cartões substituem o papel. Dá pra parcelar em até 12x com juros.
 Exemplo:
-Faz sentido olhar o valor com calma. O ponto é que não é só o cartão: vai junto o site da sua marca com domínio próprio, que também fica na bio do Instagram, e o Essencial ainda dá pra fazer em 2x de R$ 300 sem juros.
+Faz sentido olhar o valor com calma. O ponto é que não é só o cartão: vai junto o site da sua marca com domínio próprio, que também fica na bio do Instagram, e dá pra parcelar em até 12x com juros.
 Se insistir no desconto (segunda vez): transfira sem debater. Nunca ofereça desconto, brinde ou condição por conta própria.
 
 ## Produtos complementares
 
 Cardápio digital?
-Conteúdo: sim, pelo Fora de Órbita 🪐. As 30 tags de mesa fazem o papel do cardápio: aproxima o celular e abre na hora.
+Conteúdo: valor e formato o time confirma. Transfira.
 
 Avaliação no Google (cartão ou placa)?
-Conteúdo: o Profissional 💼 vem com 1 cartão de avaliação no Google e o Fora de Órbita 🪐 vem com 2.
-Se o cliente quer só a avaliação no Google, sem plano, é a Avaliação no Google por NFC: siga a skill tapreview.
+Conteúdo: junto com o site, a Tag Avaliação Google sai por R$ 40 cada.
+Se o cliente quer só a avaliação no Google, sem o site, é a Avaliação no Google por NFC: siga a skill tapreview.
 
 ## Sem resposta aprovada (sempre transferir)
 

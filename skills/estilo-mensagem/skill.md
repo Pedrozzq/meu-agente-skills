@@ -88,22 +88,22 @@ Fechamos esse?
 
 ## Listas: um item por linha
 
-Plano, item de coleta ou qualquer enumeração nunca divide linha com outro.
+Item do pedido, item de coleta ou qualquer enumeração nunca divide linha com outro.
 
 ERRADO:
-Temos 3 opções: Essencial 🌍 (4 cartões) Profissional 💼 (12 cartões) Fora de Órbita 🪐 (30 cartões)
+Seu pedido: site personalizado R$ 597 4 cartões NFC R$ 140 total R$ 737
 
 CERTO:
-Temos 3 opções:
-Essencial 🌍 — site exclusivo + 4 cartões NFC
-Profissional 💼 — site com animações avançadas + 12 cartões NFC
-Fora de Órbita 🪐 — site sob medida + 30 cartões e 30 tags NFC
+Seu pedido:
+Site personalizado — R$ 597
+4 cartões NFC — R$ 140
+Total com frete grátis — R$ 737
 
 ## Pontuação e emoji
 
 No máximo 1 ponto de exclamação por mensagem.
 No máximo 1 emoji por mensagem, e não em toda mensagem.
-Os emojis de plano (🌍 💼 🪐 📍 🌎) não entram nessa conta quando acompanham o nome do plano.
+Os emojis de plano (📍 🌎) não entram nessa conta quando acompanham o nome do plano.
 
 ## Sintaxe do WhatsApp
 
